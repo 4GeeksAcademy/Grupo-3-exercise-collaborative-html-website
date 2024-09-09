@@ -13,19 +13,19 @@ body{
 }
 
 .navbar-brand {
-    color: grey;
+    color: grey !Important;
 }
 
 .navbar-brand:hover {
-    color: white;
+    color: white !Important;
 }
 
 .nav-link {
-    color: grey;
+    color: grey !Important;
 }
 
 .nav-link:hover {
-    color: white;
+    color: white !Important;
 }
 
 .tagline{
