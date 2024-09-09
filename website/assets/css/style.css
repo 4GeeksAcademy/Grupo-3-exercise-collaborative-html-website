@@ -1,3 +1,85 @@
-/* body{
-    background: #BDBDBD;
-} */
+/*Elías Milano hizo esta parte del código*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+* {
+    font-family: 'Almarai';
+}
+
+body{
+    background: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    color: grey;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.tagline{
+    background-color: white;
+    padding-bottom: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.tagline-line1 {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    width: 95%;
+    height: 160px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+}
+
+.tagline-text1 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    width: 95%;
+    height: 130px;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-family: 'Almarai';
+    font-weight: 500;
+}
+
+.tagline-line2 {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    width: 95%;
+    height: 95px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+}
+
+.tagline-text2 {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 95%;
+    height: 95px;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: 'Almarai';
+    font-weight: 500;
+}
+
+
+
